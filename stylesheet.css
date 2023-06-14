@@ -1,0 +1,79 @@
+html {
+    background-color: #d8dce8;
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    font-size: 14pt;
+    font-family: sans-serif;
+}
+
+#profile {
+    width: 20%;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: #d8dce8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#navbar > a{
+    background-color: #D3D3D3;
+    list-style-type: none;
+    display: inline;
+    flex-grow: 0;
+    padding: 1em;
+    margin: 1em;
+}
+
+a:link {
+    color: #909090;
+}
+
+a:visited {
+  color: #00008b;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+a:active {
+  color: #283044;
+}
+
+#portfolioHead, #aboutMe, #contactMe {
+    padding-left: 20px;
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.projectCon {
+    width: 45%;
+    min-width: 30%;
+    max-width: 45%;
+    flex: 1 0 auto;
+    padding: 20px;
+}
+
+.project{
+    width: 100%;
+    min-width: 50%;
+}

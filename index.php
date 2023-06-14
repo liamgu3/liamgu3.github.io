@@ -1,0 +1,154 @@
+<!doctype HTML>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Liam Guthrie's Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<header>
+    <h1>Liam Guthrie's Portfolio</h1>
+    <p>Game Development and History graduate seeking a full-time job in interactive history development, game development, or software development.</p>
+    <p>Email: liamjgu3@gmail.com | Phone: 224-216-0247</p>
+    <img src="images/profile.jpg" alt="Profile Picture" id=profile>
+    <nav id="navbar">
+        <a href="#aboutMe">About Me</a>
+        <a href="#portfolioHead1">Development Portfolio</a>
+        <a href="#portfolioHead2">History Portfolio</a>
+        <a href="#contactMe">Contact Me</a>
+    </nav>
+</header>
+<body>
+    <div id="aboutMe">
+        <h2>About Me</h2>
+        <p>My name is Liam Guthrie and I am a double major in Game Development and History at the Rochester Institute of Technology, graduating in May of 2023. In addition to game development I also have skills in software development and web development. I am currently searching for a full-time position creating interactive history content, developing games, or developing software.</p>
+    </div>
+    <div id="portfolioHead1">
+        <h2>Development Projects</h2>
+        <p>Click any project window to view the project in more detail.</p>
+    </div>
+    <div id="portfolio">
+        <div class="projectCon">
+        <h3>Sky-Caper</h3>
+        <a href="https://skycapergame.itch.io/sky-caper" target="_blank"><img src="images/SkyCaper.png" alt="Sky-Caper Game" class="project"></a>
+        <p class="description">Sky-Caper is a stealth platformer developed by myself and two teammates, Julien Chaulot and Sean Foley, over the course of an entire summer. My role in this project was primarily programming, with a focus on the AI programming. I also collaborated on the game's design, level design, and publishing. This game was developed in Unity and released on itch.io.</p>
+        </div>
+        <div class="projectCon">
+        <h3>A Melody from East Berlin</h3>
+        <a href="https://kcdignan.itch.io/a-melody-from-east-berlin" target="_blank"><img src="images/EastBerlin.jpg" alt="A Melody from East Berlin Game" class="project"></a>
+        <p class="description">A Melody from East Berlin is branching narrative rpg about attempting to escape East Berlin by crossing the Berlin Wall. This game was developed in 9 days for the Historically Accurate Game Jam 3, in which it got 7th place out of 89 submissions. I was the sole programmer on the project, working with an artist and musician to create this game. This game was developed in Unity.</p>
+        </div>
+        <div class="projectCon">
+        <h3>Color Dodge</h3>    
+        <a href="https://people.rit.edu/ljg2980/Personal/ColorDodge/" target="_blank"><img src="images/ColorDodge.PNG" alt="Color Dodge Game" class="project"></a>
+        <p class="description">Color Dodge is a fast paced arcade game I developed myself in 72 hours for Mini Jam 62: Colors. I created everything for this game myself except for the background art, including the programming, design, music, sound effects, and UI. This game was developed in Unity. </p>
+        </div>
+        <div class="projectCon">
+        <h3>Urban Decay</h3>    
+        <a href="https://people.rit.edu/ljg2980/Personal/UrbanDecay/" target="_blank"><img src="images/UrbanDecay.PNG" alt="Urban Decay" class="project"></a>
+        <p class="description">Urban Decay is a real time dungeon crawler with 3d graphics developed by myself and 4 teammates over 5 weeks. My primary role on this project was developing the level generator that allowed for rapid iteration on our levels and the potential for creating more levels in the future. I also created the menu structure and implemented all the audio. This game was developed in Unity.</p>
+        </div>
+        <div class="projectCon">
+        <h3>Murder Case</h3>    
+        <a href="https://people.rit.edu/ljg2980/Personal/MurderCase/" target="_blank"><img src="images/MurderCase.PNG" alt="Murder Case Game" class="project"></a>
+        <p class="descripion">Murder Case is a narrative driven walking simulator developed by myself and four of my classmates. My role in this project was as a 3D Modeler, modeling the dining room furniture, the bathroom, and wall paintings. This game was developed in Unity and the models were created in Maya.</p>
+        </div>
+        <div class="projectCon" style="border-stlye:solid;">
+        <h3>Running Routes</h3>    
+        <a href="https://people.rit.edu/ljg2980/330/Project2/" target="_blank"><img src="images/RunningRoutes.PNG" alt="Running Routes Website" class="project"></a>
+        <p class="descripion">Running Routes is a tool that utilizes the Strava API, MapBox API, and the OpenWeather API to tell the user the closest running routes of a specified length and what clothing they should wear for the current weather. It was created using HTML, CSS, and JavaScript and developed solely by me.</p>
+        </div>
+        <div class="projectCon">
+        </div>
+    </div>
+	<div id="portfolioHead2">
+        <h2>History Projects</h2>
+        <p>Click any project window to view the project in more detail.</p>
+    </div>
+	<div id="portfolio">
+        <div class="projectCon">
+        <h3>The Hill Cumorah Legacy Project</h3>
+        <a href="https://cumorahlegacy.omeka.net/" target="_blank"><img src="images/HillCumorah.jpg" alt="The Hill Cumorah Legact Project Website" class="project"></a>
+        <p class="description">The Hill Cumorah Legacy Project was a public history project to digitally preserve the memory of the Hill Cumorah Pageant, a pageant put on by the LDS Church in Palmyra, New York for over 80 years. I interviewed pageant participants and digitally archived artifacts and documents relating to the pageant, all of which was uploaded to Omeka for preservation.</p>
+        </div>
+		<div class="projectCon">
+        <h3>Consuming Empires: British Arctic Exploration and The Franklin Expedition</h3>
+        <a href="/ljg2980/Portfolio/PDFs/ConsumingEmpiresEssay.pdf" target="_blank"><img src="images/FranklinExpedition.jpg" alt="Consuming Empires Essay PDF" class="project"></a>
+        <p class="description">This essay examines the roles science, technology, and imperialistic fervor played in the ill-fated Sir Franklin Expedition to find the Northwest Passage in 1845. This essay recieved the Kearse Student Writing Award given by the RIT College of Liberal Arts for excellent student writing.</p>
+        </div>
+        <div class="projectCon">
+        <h3>The Lowell Six</h3>
+        <a href="/ljg2980/Portfolio/PDFs/TheLowellSix.pdf" target="_blank"><img src="images/Lowell.jpg" alt="The Lowell Six PDF" class="project"></a>
+        <p class="description">This research essay investigates six deaf graduates of the American School for the Deaf who lived and worked together in Lowell, Massachusetts at the dawn of the American Industrial Revolution. The research is compiled entirely from first-hand research of archival sources. Research on this project is ongoing.</p>
+        </div>
+		<div class="projectCon">
+        <h3>The Sling: A Brief History and Experimental Recreation</h3>
+        <a href="/ljg2980/Portfolio/PDFs/AncientTechnologyFinal.pdf" target="_blank"><img src="images/sling.jpg" alt="Ancient Technology PDF" class="project"></a>
+        <p class="description">This essay documents an experimental archaelogy project to recreate an ancient American sling found in Peru. The project involved researching the materials and methods used to create the sling and attempting to replicate this process for educational purposes.</p>
+        </div>
+    </div>
+    
+    <div id="contactMe">
+    <h2>Contact Me</h2>
+ 	<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+        
+        <label>Name</label>
+        <input name="name" placeholder="Type Here">
+        
+        <label>Email</label>
+        <input name="email" type="email" placeholder="person@sample.com">
+        
+        <label>Message</label>
+        <textarea name="message" placeholder="Type Here"></textarea>
+        
+        <input id="submit" name="submit" type="submit" value="Submit">
+        
+    </form>
+    </div>
+    
+</body>
+ <?php   
+ 	// ** Form validation code **
+ 	// We will use the $_POST "super global" associative array to extract the values of the form fields
+	// #1 - was the submit button pressed?
+    if (isset($_POST["submit"])){ 
+    	$to = "ljg2980@rit.edu"; // !!! REPLACE WITH YOUR EMAIL !!!
+    	
+    	// #2 - if a value for the `email` form field is missing, give a default value
+    	// else, use the value from the form field
+			$from = empty(trim($_POST["email"])) ? "noemail@sample.com" : sanitize_string($_POST["email"]);
+			
+			$subject = "Web Form";
+			
+			// #3 - same as above, except with the `message` form field
+			$message = empty(trim($_POST["message"])) ?  "No message" : sanitize_string($_POST["message"]);
+			
+			// #4 - same as above, except with the `name` form field
+			$name = empty(trim($_POST["name"])) ? "No name" : sanitize_string($_POST["name"]);
+			
+			$headers = "From: $from" . "\r\n";
+			
+			// #6 - add the user's name to the end of the message
+			$message .= "\n\n - $name";
+        
+            $sent = mail($to,$subject,$message,$headers);
+				if ($sent){
+					echo "<p><b>You sent:</b> $message</p>";
+				}else{
+					echo "<p>Mail not sent!</p>";
+				}
+
+    }
+    
+    // #9 - this handy helper function is very necessary whenever
+    // we are going to put user input onto a web page or a database
+    // For example, if the user entered a <script> tag, and we added that <script> tag to our HTML page
+    // they could perform an XSS attack (Cross-site scripting)
+    function sanitize_string($string){
+	/*$string = trim($string);
+	$string = strip_tags($string);*/
+	return $string;
+    }
+?>
+</html>
