@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding-left: 2em;
+    background-color: #E7E7E7;
+}
+
+@font-face{
+    font-family: running;
+    src: url(../fonts/RUNNING.otf);
+    /*
+    https://www.1001freefonts.com/running-font.font
+    */
+}
+
+h1 {
+    font-family: running;
+    font-size: 84pt;
+    margin: 0;
+    color: #FF7900;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+p, th, td {
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+
+#notes {
+    font-size: 10pt;
+    background-color: #FFF7EB;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 61%;
+    margin-bottom: 1em;
+}
+
+#controls {
+    padding: 1em;
+    background-color: #E8EEFF;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #546467;
+    width: 60%;
+    font-size: 14pt;
+    margin-bottom: 1em;
+    font-family: sans-serif;
+}
+
+#map {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1em;
+}
+
+button {
+    font-size: 20px;
+    color: black;
+    padding: 12px 28px;
+    background-color: #DDDDDD;
+    font-weight: bold;
+}
+        
+.marker {
+    background-image: url('../images/orange_pin.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+        
+.mapboxgl-popup {
+    max-width: 200px;
+}
+        
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#strava{
+    position: relative;
+}
+
+#weather{
+    position: relative;
+}
+
+footer {
+    text-align: center;
+}
