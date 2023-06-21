@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "3d Virtual Worlds Project",
+"productVersion": "0.1",
+"dataUrl": "Murder Case WebGL Build.data.unityweb",
+"wasmCodeUrl": "Murder Case WebGL Build.wasm.code.unityweb",
+"wasmFrameworkUrl": "Murder Case WebGL Build.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.1.10f1"
+}

@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+UrbanDecay/Build/WebBuild.data.unityweb filter=lfs diff=lfs merge=lfs -text
+Games/MurderCase/Build/Murder[[:space:]]Case[[:space:]]WebGL[[:space:]]Build.data.unityweb filter=lfs diff=lfs merge=lfs -text
+Games/UrbanDecay/Build/WebBuild.data.unityweb filter=lfs diff=lfs merge=lfs -text
